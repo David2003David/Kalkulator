@@ -65,6 +65,10 @@ body
     margin-top: 40px;
     border: none;
 }
+.button :hover{
+    background: rgb(255, 255, 255);
+    color: #FEA00C;
+}
 .btn1
 {
     width: 60px;
@@ -138,6 +142,10 @@ body
     margin-top: 30px;
     margin-left: -260px;
     border: none;
+}
+.grid-container :hover{
+    background: rgb(255, 255, 255);
+    color: #343434;
 }
 .grid-item {
     background-color: #343434;

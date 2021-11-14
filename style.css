@@ -63,6 +63,7 @@ body
     justify-content: center;
     align-items: center;
     margin-top: 40px;
+    border: none;
 }
 .btn1
 {
@@ -136,6 +137,7 @@ body
     margin-bottom: 60px;
     margin-top: 30px;
     margin-left: -260px;
+    border: none;
 }
 .grid-item {
     background-color: #343434;

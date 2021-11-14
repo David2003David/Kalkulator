@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <link rel="stylesheet icon" href="img/Icons-03-uai-258x258.png">
+    <script src="https://kit.fontawesome.com/36dc9b9d6e.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input">
+            <input type="text" placeholder="0,00" class="inp1">
+            <input type="text" placeholder="0,00" class="inp2">
+        </div>
+        
+        <div class="grid-container">
+            <button onclick="reset()" class="grid-item1">C</button>
+            <button onclick="backspace()" class="grid-item2"><i class="fas fa-backspace"></i></button> 
+            <button onclick="input('%')" class="grid-item3">%</button>
+            <button onclick="input('7')" class="grid-item">7</button>
+            <button onclick="input('8')" class="grid-item">8</button>
+            <button onclick="input('9')" class="grid-item">9</button>  
+            <button onclick="input('4')" class="grid-item">4</button>
+            <button onclick="input('5')"  class="grid-item">5</button>
+            <button onclick="input('6')" class="grid-item">6</button>  
+            <button onclick="input('1')"  class="grid-item">1</button>
+            <button onclick="input('2')"  class="grid-item">2</button>
+            <button onclick="input('3')" class="grid-item">3</button>
+            <button onclick="input('0')" class="grid-item0">0</button>  
+            <button onclick="input(',')" class="grid-item">,</button>    
+          </div>
+        <div class="button">
+            <button onclick="input('/')"  class="btn1">/</button>
+            <button onclick="input('*')"  class="btn2">X</button>
+            <button onclick="input('-')"  class="btn3">-</button>
+            <button onclick="input('+')"  class="btn4">+</button>
+            <button onclick="result()"  class="btn5">=</button>
+        </div>
+  
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
